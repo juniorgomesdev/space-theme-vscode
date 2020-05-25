@@ -1,0 +1,21 @@
+{
+    "name": "space-theme",
+    "displayName": "space-theme",
+    "description": "this theme is fro those who like an elegant and multicolored designer like space",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "space-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/space-theme-color-theme.json"
+            }
+        ]
+    }
+}
